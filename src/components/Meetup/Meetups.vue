@@ -7,7 +7,7 @@
             <v-layout row>
               <v-flex xs5 sm4 md3>
                 <v-card-media
-                  src="'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR1yF0stK92tIk1Ne6XgZpBBk_MqoJuV9cAfoUcZc5IvyA5Occyb_GpOQ'"
+                  src="http://www.visitsylhet.com/images/slides/home/bichnakandi.jpg"
                   height="130px"
                 ></v-card-media>
               </v-flex>
@@ -19,7 +19,7 @@
                   </div>
                 </v-card-title>
                 <v-card-actions>
-                  <v-btn flat>
+                  <v-btn flat to="/meetups/1">
                     <v-icon left light>arrow_forward</v-icon>
                     View Meetup
                   </v-btn>
