@@ -27,6 +27,7 @@
           v-for="item in menuItems"
           :key="item.title"
           :to="item.link"
+          exact
         >
           <v-icon left dark>{{ item.icon }}</v-icon>
           {{ item.title }}
