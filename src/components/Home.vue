@@ -34,12 +34,9 @@
 </template>
 <script>
   export default {
-    data () {
-      return {
-        meetups: [
-          { imageUrl: 'http://www.visitsylhet.com/images/slides/home/bichnakandi.jpg', id: 'dasfadsfdfdas', title: 'Meetup in Sylhet' },
-          { imageUrl: 'https://i.ytimg.com/vi/-BuT8yw7ujA/maxresdefault.jpg', title: 'Meetup in Dhaka' }
-        ]
+    computed: {
+      meetups () {
+        return this.$store.getters.featuredMeetups
       }
     },
     methods: {
